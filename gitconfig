@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = sebvey@gmail.com
+	name = Sebastien VEY
