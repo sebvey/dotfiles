@@ -11,6 +11,9 @@ alias stt="echo 'Launching VS Code instead of Sublime Text... (cf ~/.aliases)' &
 # Basics
 alias x="clear"
 
+# Battery
+alias bt="sudo bat -p"
+
 # Git
 alias gc="git commit"
 alias gp="git push"
