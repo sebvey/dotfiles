@@ -1,0 +1,21 @@
+{
+  "load_extensions": {
+    "nbextensions_configurator/config_menu/main": true,
+    "contrib_nbextensions_help_item/main": true,
+    "toc2/main": true,
+    "collapsible_headings/main": true,
+    "spellchecker/main": true,
+    "code_prettify/code_prettify": true,
+    "move_selected_cells/main": true,
+    "comment-uncomment/main": false,
+    "keyboard_shortcut_editor/main": true
+  },
+  "comment_uncomment_keybinding": "ctrl-/",
+  "keys": {
+    "command": {
+      "bind": {
+        "ctrl-!": "auto:toggle-comment"
+      }
+    }
+  }
+}
