@@ -22,3 +22,5 @@ alias ga="git add"
 # Jupyter
 alias jn="jupyter notebook"
 alias jl="jupyterlab"
+
+export GOOGLE_APPLICATION_CREDENTIALS=/home/sve/code/sebvey/gcp/wagon-sve-certif-288eba173931.json

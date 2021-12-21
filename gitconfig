@@ -52,3 +52,5 @@
 [user]
 	email = sebvey@gmail.com
 	name = Sebastien VEY
+[init]
+	defaultBranch = main
