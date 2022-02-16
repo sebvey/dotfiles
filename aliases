@@ -12,12 +12,14 @@ alias x="clear"
 function sbt() {
   sudo bat -t $1 | head -n 1
   sudo bat -p
+  echo -n "New Threshold : " &&  bat -t
 }
 
 # Git
 alias gc="git commit"
 alias gp="git push"
 alias ga="git add"
+alias gltree="git log --graph --oneline --decorate --all"
 
 # Jupyter
 alias jn="jupyter notebook"

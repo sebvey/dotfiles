@@ -32,26 +32,34 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "[markdown]":
+    {
+      "files.trimTrailingWhitespace": false,
+    },
     "files.exclude":
     {
-        "**/.git": true,
-        "**/.DS_Store": true,
-        "node_modules": true,
-        "tmp": true,
-        "log": true,
-        ".asset-cache": true,
-        ".bundle": true,
-        ".ipynb_checkpoints": true,
-        ".pytest_cache": true,
-        ".sass-cache": true,
-        ".svn": true,
-        "__pycache__": true,
-        "_site": true,
-        "build": true,
-        "coverage": true,
-        "dist": true,
-        "public/packs": true,
-        "**/.egg-info": true
+      "__pycache__": true,
+      "_site": true,
+      ".asset-cache": true,
+      ".bundle": true,
+      ".ipynb_checkpoints": true,
+      ".pytest_cache": true,
+      ".sass-cache": true,
+      ".svn": true,
+      "**/.DS_Store": true,
+      "**/.git": true,
+      "**/*.egg-info": true,
+      "build": true,
+      "coverage": true,
+      "dist": true,
+      "log": true,
+      "node_modules": true,
+      "public/packs": true,
+      "tmp": true,
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
     },
     "files.watcherExclude":
     {
@@ -63,8 +71,6 @@
         "**/vendor/**": true
     },
     "git.enabled": false,
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
     "[python]":
     {
         "editor.tabSize": 4
@@ -77,5 +83,11 @@
     },
     "workbench.startupEditor": "newUntitledFile",
     "files.autoSave": "afterDelay",
+    "python.defaultInterpreterPath": "~/.pyenv/shims/python",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "maven.executable.path": "/opt/maven/bin/mvn",
+    "redhat.telemetry.enabled": true,
+    "maven.executable.preferMavenWrapper": true,
     "window.zoomLevel": 1
 }
