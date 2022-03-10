@@ -25,4 +25,8 @@ alias gltree="git log --graph --oneline --decorate --all"
 alias jn="jupyter notebook"
 alias jl="jupyterlab"
 
-export GOOGLE_APPLICATION_CREDENTIALS=/home/sve/code/sebvey/gcp/wagon-sve-certif-288eba173931.json
+# GCP Credential
+# (first is the water project)
+# (Second is sve teacher project)
+# export GOOGLE_APPLICATION_CREDENTIALS=/home/sve/code/sebvey/gcp/wagon-sve-certif-288eba173931.json
+export GOOGLE_APPLICATION_CREDENTIALS=/home/sve/code/sebvey/gcp/sve-teacher-wagon-account.json
