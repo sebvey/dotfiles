@@ -88,6 +88,5 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "maven.executable.path": "/opt/maven/bin/mvn",
     "redhat.telemetry.enabled": true,
-    "maven.executable.preferMavenWrapper": true,
-    "window.zoomLevel": 1
+    "maven.executable.preferMavenWrapper": true
 }

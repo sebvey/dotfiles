@@ -30,3 +30,6 @@ alias jl="jupyterlab"
 # (Second is sve teacher project)
 # export GOOGLE_APPLICATION_CREDENTIALS=/home/sve/code/sebvey/gcp/wagon-sve-certif-288eba173931.json
 export GOOGLE_APPLICATION_CREDENTIALS=/home/sve/code/sebvey/gcp/sve-teacher-wagon-account.json
+
+# MacOS Aliases
+alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
