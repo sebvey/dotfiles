@@ -8,13 +8,6 @@ alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 # Basics
 alias x="clear"
 
-# Battery
-function sbt() {
-  sudo bat -t $1 | head -n 1
-  sudo bat -p
-  echo -n "New Threshold : " &&  bat -t
-}
-
 # Git
 alias gc="git commit"
 alias gp="git push"
@@ -25,11 +18,18 @@ alias gltree="git log --graph --oneline --decorate --all"
 alias jn="jupyter notebook"
 alias jl="jupyterlab"
 
-# GCP Credential
-# (first is the water project)
-# (Second is sve teacher project)
-# export GOOGLE_APPLICATION_CREDENTIALS=/home/sve/code/sebvey/gcp/wagon-sve-certif-288eba173931.json
-export GOOGLE_APPLICATION_CREDENTIALS=/home/sve/code/sebvey/gcp/sve-teacher-wagon-account.json
 
-# MacOS Aliases
-alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
+# MacOS Specific
+if [[ "$OSTYPE" == "darwin"* ]] then
+  alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
+fi
+
+# Linux Specific
+if [[ "$OSTYPE" == "linux-gnu"* ]] then
+  # Battery (ASUS)
+  function sbt() {
+    sudo bat -t $1 | head -n 1
+    sudo bat -p
+    echo -n "New Threshold : " &&  bat -t
+  }
+fi

@@ -70,7 +70,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "[python]":
     {
         "editor.tabSize": 4
