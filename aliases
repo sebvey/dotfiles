@@ -22,6 +22,7 @@ alias jl="jupyterlab"
 # MacOS Specific
 if [[ "$OSTYPE" == "darwin"* ]] then
   alias snowsql=/Applications/SnowSQL.app/Contents/MacOS/snowsql
+  alias oif='open_command $PWD'
 fi
 
 # Linux Specific
@@ -33,3 +34,4 @@ if [[ "$OSTYPE" == "linux-gnu"* ]] then
     echo -n "New Threshold : " &&  bat -t
   }
 fi
+
