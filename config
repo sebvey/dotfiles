@@ -1,4 +1,11 @@
+Host sve.gitlab.com
+    HostName gitlab.com
+    IdentityFile ~/.ssh/id_ed25519_sebvey
+
 Host *
-  UseKeychain yes
-  AddKeysToAgent yes
-  IdentityFile ~/.ssh/id_ed25519
+    IdentityFile ~/.ssh/id_ed25519
+
+# Host alias.gitlab.com # alias.gitlab.com to use instead of gitlab.com in ssh or gitlab
+#     IgnoreUnknown UseKeychain # will ignore UseKeyChain on Linux
+#     UseKeychain yes # MacOs Specific, will store once for all the passphrase with KeyChain
+#     AddKeysToAgent yes # key added to the ssh-agent
