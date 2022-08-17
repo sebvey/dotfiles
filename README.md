@@ -31,4 +31,5 @@ Includes :
 Le Wagon Data Setup is great -> [Le Wagon Data Setup](https://github.com/lewagon/data-setup).  
 Can be followed and adapted :
 - MacOS : Use this brew script instead
-- Dotfiles : Use this 
+- Oh my Zsh : Use this script instead
+- Dotfiles : Use this script instead
