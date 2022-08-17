@@ -8,7 +8,7 @@ ZSH_THEME="af-magic" # default : "robbyrussell"
 # Useful oh-my-zsh plugins
 plugins=(pyenv git gitfast last-working-dir pip \
   common-aliases zsh-syntax-highlighting history-substring-search \
-  ssh-agent gcloud kubectl)
+  ssh-agent gcloud kubectl terraform direnv npm docker aws)
 
 # ssh-agent : loads multiple identities
 zstyle :omz:plugins:ssh-agent identities id_ed25519 id_ed25519_sebvey
