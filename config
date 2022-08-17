@@ -1,9 +1,14 @@
+
+
 Host sve.gitlab.com
     HostName gitlab.com
     IdentityFile ~/.ssh/id_ed25519_sebvey
 
-Host *
-    IdentityFile ~/.ssh/id_ed25519
+
+# When not described host, default identity is used
+# no need to precise it (even more, it conflicts with ssh-agent)
+# Host *
+#     IdentityFile ~/.ssh/id_ed25519
 
 # Host alias.gitlab.com # alias.gitlab.com to use instead of gitlab.com in ssh or gitlab
 #     IgnoreUnknown UseKeychain # will ignore UseKeyChain on Linux
