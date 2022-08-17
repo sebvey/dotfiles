@@ -71,5 +71,3 @@ fi
 
 # Refresh the current terminal with the newly installed configuration
 zsh ~/.zshrc
-
-echo "👌 Carry on with git setup!"
