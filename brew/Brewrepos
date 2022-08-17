@@ -1,0 +1,7 @@
+# Add additional repos needed to install formale in Brewfile
+# (used by brew_setup.sh)
+# only list repos
+
+homebrew/bundle   # bundle repo ('brew bundle' command will be installed from it at first use)
+hashicorp/tap     # terraform repo
+aws/tap           # aws repo

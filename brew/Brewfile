@@ -1,18 +1,8 @@
-## common brew formulae to be installed on a fresh MacOS
-
-# HOW TO :
-
-# Install homebrew
-# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# Add additional repos
-# brew tap homebrew/bundle
-# brew tap hashicorp/tap
-# brew tap aws/tap
+## common brew formulae
+# used to install formulae to install by brew_setup.sh
 
 # Install the packages for this file (from Brewfile directory)
 # brew bundle
-
 
 ### Prog Apps ####################
 
