@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-# Define a function which rename a `target` file to `target.backup` if the file
-# exists and if it's a 'real' file, ie not a symlink
+# Renames a `target` file to `target.backup` if the file
+# exists and if it's not a symlink
 backup() {
   target=$1
   if [ -e "$target" ]; then
@@ -12,13 +12,23 @@ backup() {
   fi
 }
 
+# Creates a Symlink to a file
+# if symlink already exists, removes it first
 symlink() {
   file=$1
   link=$2
+
+  if [ -L "$link" ]; then
+    echo "-----> Removing previous Symlink $link"
+    rm  $link
+  fi
+
   if [ ! -e "$link" ]; then
     echo "-----> Symlinking your new $link"
     ln -s $file $link
   fi
+
+
 }
 
 # For all files `$name` in the present folder except `*.sh`, `README.md`, `settings.json`,
@@ -66,7 +76,7 @@ if [[ `uname` =~ "Darwin" ]]; then
   target=~/.ssh/config
   backup $target
   symlink $PWD/config $target
-  ssh-add -K ~/.ssh/id_ed25519
+  ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 fi
 
 # Refresh the current terminal with the newly installed configuration

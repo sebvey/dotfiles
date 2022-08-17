@@ -1,4 +1,4 @@
 [includeIf "gitdir:~/code/sebvey/"]
-  path = ~/code/sebvey/dotfiles/gitconfig-sebvey
+  path = ~/.gitconfig-sebvey
 [includeIf "gitdir:~/code/ippon/"]
-  path = ~/code/sebvey/dotfiles/gitconfig-ippon
+  path = ~/.gitconfig-ippon
