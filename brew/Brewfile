@@ -21,8 +21,6 @@ brew 'aws-sam-cli'
 brew 'awscli'
 # cask 'google-cloud-sdk'
 
-
-
 cask 'visual-studio-code'
 cask 'docker'
 brew 'terraform'
@@ -49,6 +47,10 @@ brew 'qpdf'
 
 ### Daily Apps #########################
 cask 'appcleaner'
-cask 'balenaetcher'
 cask 'gimp'
 cask 'vlc'
+cask 'google-chrome'
+cask 'notion'
+cask 'deezer'
+cask 'transmission'
+# cask 'balenaetcher'

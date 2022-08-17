@@ -16,7 +16,7 @@ if [[ "$OSTYPE" == "darwin"* ]] then
     echo "-> Brew installed/updated."
 
     # Installs Brew repositories
-    # (from manual file, could be handled with Brewfile... saw it too late)
+    # (from ./brew/Brewrepos file, could be handled with Brewfile... saw it too late)
     echo "--- Will now add repos listed in ./brew/Brewrepos file to brew...\n"
 
     filter_regex='/^[[:blank:]]*$/d;/^[[:blank:]]*#/d;s/[[:blank:]]*#.*//'
