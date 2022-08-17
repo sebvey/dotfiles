@@ -21,13 +21,15 @@ Includes :
     - gitconfig-ippon used when in ~/code/ippon/ directory (and subs)
 
 # Homebrew (MacOS Specific)
+
 - Homebrew : uninstall native homebrew if needed :  
     ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"```
 
-- Execute brew_setup.sh. It will install brew, repos from bre/Brewrepos and
+- Execute brew_setup.sh. It will install brew, repos from brew/Brewrepos and
   formulae from brew/Brewfile (including cask : Google Chrome, Docker, VS Code ...)
 
 # Full Setup
+
 Le Wagon Data Setup is great -> [Le Wagon Data Setup](https://github.com/lewagon/data-setup).  
 Can be followed and adapted :
 - MacOS : Use this brew script instead
